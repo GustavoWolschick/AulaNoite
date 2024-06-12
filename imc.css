@@ -1,0 +1,50 @@
+*{
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+body{ 
+   flex-direction: column;
+    justify-content: center;
+    white-space: center;
+    background-color: aqua;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.header {
+    background-color: rgb(6, 25, 90);
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 440px;
+    width: 390px;
+    padding: 30px;
+    border-width: 3;
+    border-radius: 10;
+    margin: 3;
+    background-color: 'white';
+}
+/* estilização do rodapé */
+footer {
+    background-color: rgb(6, 25, 90);
+    padding: 40px 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
