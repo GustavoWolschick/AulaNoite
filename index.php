@@ -33,10 +33,10 @@
                     <a href="">
                         <h3>Conversor de Moedas</h3>
                     </a>
-                    <a href="">
+                    <a href="Gorjeta.php">
                         <h3>Calculadora de gorjetas</h3>
                     </a>
-                    <a href="">
+                    <a href="Temperatura.php">
                         <h3>Conversor de temperatura</h3>
                     </a>
                     <a href="">
