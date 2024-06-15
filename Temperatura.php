@@ -19,7 +19,8 @@
         <h1>Converter Temperatura</h1>
         <form action="Temperatura.php" Method="POST">
             <label for="temperatura">Informe uma temperatura:</label><br>
-            <input type="number" id="temperatura" name="temperatura" step="0.01" required> <br><br>
+            <input type="number" id="temperatura" name="temperatura" step="0.01" required> 
+            <div class="depara">
             <select name="de_temperatura" id="de_temperatura">
                 <option value="celsius">Celsius</option>
                 <option value="fahrenheit">Fahrenheit</option>
@@ -27,7 +28,8 @@
             <select name="para_temperatura" id="para_temperatura">
                 <option value="celsius">Celsius</option>
                 <option value="fahrenheit">Fahrenheit</option>
-            </select><br><br>
+            </select>
+            </div>
             <input type="submit" value="Converter">
             <input type="reset" value="limpar"> <br><br>
         </form>

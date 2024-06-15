@@ -20,8 +20,8 @@
         <form action="Gorjeta.php" Method="POST">
             <label for="valor">Informe um valor:</label><br>
             <input type="number" id="valor" name="valor" step="0.01" required> <br><br>
-            <label for="porcentagem">Percentual de gorjeta:</label><br>
-            <input type="number" id="porcentagem" name="porcentagem" min="0"> %<br><br>
+            <label for="porcentagem">Percentual de gorjeta %:</label><br>
+            <input type="number" id="porcentagem" name="porcentagem" min="0"> <br><br>
             <input type="submit" value="Calcular gorjeta">
             <input type="reset" value="limpar"> <br><br>
         </form>
@@ -36,7 +36,7 @@
                 } else {
                     $resultado = $valor*$porcentagem/100;
         
-                    echo "Adicionando $porcentagem% de gorjeta ao valor de R$ $valor,";
+                    echo "Adicionando $porcentagem% de gorjeta ao valor de R$" .number_format($valor,2);
                     echo "<br>O valor total a ser pago é de R$ ".number_format($valor+$resultado,2);
                 }
             } else {
