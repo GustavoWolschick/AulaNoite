@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
+  <!-- ceçalho -->
+  <header class="header">
+            <h1>Projeto PHP</h1>
+        </header>
 <body>
     <!-- div principal - pagina inteira -->
     <div class="container">
-        <!-- ceçalho -->
-        <header class="header">
-            <h1>Projeto PHP</h1>
-        </header>
         <br>
         <main>
             <h2 id="titulo">Escolha a atividade que deseja realizar</h2>
@@ -24,13 +23,13 @@
             <ul>
                 <br>
                 <li>
-                    <a href="">
+                    <a href="Rifa.php">
                         <h3>Rifa on-line</h3>
                     </a>
                     <a href="CalculadoraIMC.php">
                         <h3>Calculadora de IMC</h3>
                     </a>
-                    <a href="">
+                    <a href="Moedas.php">
                         <h3>Conversor de Moedas</h3>
                     </a>
                     <a href="Gorjeta.php">
@@ -47,11 +46,13 @@
 
             </ul>
             <br>
-        </main>
-    </div>
-    <footer>
+        </main> 
+        </div>
+        <footer>
         Copyright Gustavo R. Wolschick | 2024
     </footer>
+    
+   
 </body>
 
 </html>
