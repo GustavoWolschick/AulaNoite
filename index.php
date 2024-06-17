@@ -39,7 +39,7 @@
                     <a href="Temperatura.php">
                         <h3>Conversor de temperatura</h3>
                     </a>
-                    <a href="">
+                    <a href="area.php">
                         <h3>Calculadora de áreas</h3>
                     </a>
 
